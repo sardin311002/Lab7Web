@@ -17,21 +17,21 @@ Di pertemuan kali ini kita akan mempelajari **PHP DASAR** dengan beberapa progra
 ### 1. Instal XAMPP Untuk Server
 
 ![img](Img/ss%20instal%20Xampp.png)
-**PENJELASAN**
-Install XAMPP untuk **_WEB SERVER_** dan kemudian ekstrak file nya dan sesuaikan dimana kalian menyimpan file tersebut.
+**PENJELASAN**<br>
+Install XAMPP untuk ***WEB SERVER*** dan kemudian ekstrak file nya dan sesuaikan dimana kalian menyimpan file tersebut.
 
-## 2. Menjalankan Web Server
+### 2. Menjalankan Web Server
 
-1[img](Img/ss%20menjalankan%20xamp.png)
-**PENJELASAN**
+![img](Img/ss%20menjalankan%20xamp.png)
+**PENJELASAN**<br>
 Mengaktifkan **XAMPP** dengan menekan tombol **START SERVER APACHE** Seperti gambar di atas.
 
 ### 3. Memulai Php
 
-Buat folder Lab7*php_Dasar pada root directory web server (c:Xampp/htdocs/Lab7Web)
+Buat folder Lab7\*php_Dasar pada root directory web server (c:Xampp/htdocs/Lab7Web)
 ![img](Img/ss%20File%20Lab7web.png)
-**PENJELASAN**
-Di atas saya membuat folder \*\*\_lab7_php_dasar*** yang dimana folder itu disimpan dalam folder **Lab7Web\*\* untuk repository
+**PENJELASAN**<br>
+Di atas saya membuat folder **lab7_php_Dasar** yang dimana folder itu disimpan dalam folder **Lab7Web** untuk repository
 
 Kemudian akses directory pada web server dengan mengakses URL:http://localhost/Lab7Web/Lab7_php_Dasar/
 ![img](Img/ss%20localhost.png)
@@ -43,7 +43,7 @@ Di atas adalah contoh dari tampil dalam URI atau tampilan server folder tersebut
 
 Buat File baru dengan nama **php_dasar.php** pada directory tersebut kemudian buat kode seperti berikut.
 ![img](Img/ss1.png)
-**PENJELASAN**
+**PENJELASAN**<br>
 Kemudian akses URL untuk hasil nya :http://localhost/Lab7Web/Lab7_php_Dasar/php_dasar.php
 
 Di atas adalah contoh hasil dari penggunaan **PHP** dalam file html atau **embed**
@@ -70,7 +70,7 @@ Di atas adalah contoh hasil dari penggunaan **PHP** dalam file html atau **embed
 
 Menambahkan Variabel pada program
 ![img](Img/ss2.png)
-**PENJELASAN**
+**PENJELASAN**<br>
 Di atas adalah contoh penggunaan Variabel di **PHP**
 
 ```code php
@@ -87,7 +87,7 @@ Di atas adalah contoh penggunaan Variabel di **PHP**
 
 Menggunakan **Predefine Variable**
 ![img](Img/ss3.png)
-**PENJELASAN**
+**PENJELASAN**<br>
 Buat File baru dalam directory **lab7_php_dasar** dengan nama file nya adalah **latihan2.php** dan buat code seperti dibawah dan untuk mengaksesnya gunakan URL: http://localhost/Lab7Web/lab7_php_Dasar/latihan2.php?nama=Sardin dan tampilan nya seperti gambar diatas.
 
 ```code php
