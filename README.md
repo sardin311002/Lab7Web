@@ -18,7 +18,7 @@ Di pertemuan kali ini kita akan mempelajari **PHP DASAR** dengan beberapa progra
 
 ![img](Img/ss%20instal%20Xampp.png)
 **PENJELASAN**<br>
-Install XAMPP untuk ***WEB SERVER*** dan kemudian ekstrak file nya dan sesuaikan dimana kalian menyimpan file tersebut.
+Install XAMPP untuk **_WEB SERVER_** dan kemudian ekstrak file nya dan sesuaikan dimana kalian menyimpan file tersebut.
 
 ### 2. Menjalankan Web Server
 
@@ -110,36 +110,41 @@ Buat File baru dalam directory **lab7_php_dasar** dengan nama file nya adalah **
 ```
 
 ### 7. MEMBUAT FORM INPUT
+
 ![img](Img/ss4.png)
 **PENJELASAN**<br>
- Buat File baru dengan nama ***from infut.php*** dalam directory folder **lab7_php_dasar** di atas adalah hasil atau tampilan dalam membuat form dalam php dengan variable $_POST contoh code seperti dibawah
- ```code php
+Buat File baru dengan nama **_from infut.php_** dalam directory folder **lab7_php_dasar** di atas adalah hasil atau tampilan dalam membuat form dalam php dengan variable $\_POST contoh code seperti dibawah
+
+```code php
 <!-- Form Infut -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Dasar</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PHP Dasar</title>
 </head>
 <body>
-    <h2>Form Input</h2>
-    <form method="post">
-        <label for="Nama">Nama: </label>
-        <input type="text" name="nama">
-        <input type="submit" value="Kirim">
-    </form>
-    <?php
-        echo 'Selamat Datang ' . $_POST['nama'];
-    ?>
+   <h2>Form Input</h2>
+   <form method="post">
+       <label for="Nama">Nama: </label>
+       <input type="text" name="nama">
+       <input type="submit" value="Kirim">
+   </form>
+   <?php
+       echo 'Selamat Datang ' . $_POST['nama'];
+   ?>
 </body>
 </html>
 ```
+
 ### 8. OPERATOR
+
 ![img](Img/ss5.png)
 **PENJELASAN**<br>
-Membuat ***OPERATOR*** dalam php seperti contoh hasil tampilan di atas beserta code nya.
+Membuat **_OPERATOR_** dalam php seperti contoh hasil tampilan di atas beserta code nya.
+
 ```code php
 <!DOCTYPE html>
 <html lang="en">
@@ -161,10 +166,13 @@ Membuat ***OPERATOR*** dalam php seperti contoh hasil tampilan di atas beserta c
 </body>
 </html>
 ```
+
 ### 9. KONDISI IF
+
 ![img](Img/ss6.png)
 **PENJELASAN**<br>
 Pengondisian **IF ELSE** seperti hasil tampilan dan code digambar atas
+
 ```code php
 <?php
         $nama_hari = date("l");
@@ -177,10 +185,13 @@ Pengondisian **IF ELSE** seperti hasil tampilan dan code digambar atas
         }
     ?>
 ```
+
 ### 10. KONDISI SWITCH
+
 ![img](Img/ss7.png)
 **PENJELASAN**<br>
-Contoh penggunaan pengondisian **SWICTH CASE** dengan ***Break*** seperti contoh hasil diatas beserta code.
+Contoh penggunaan pengondisian **SWICTH CASE** dengan **_Break_** seperti contoh hasil diatas beserta code.
+
 ```code php
 <?php
         $nama_hari = date("l");
@@ -195,15 +206,18 @@ Contoh penggunaan pengondisian **SWICTH CASE** dengan ***Break*** seperti contoh
                  echo "Selasa";
                 break;
             default:
-                echo "Sabtu"; 
+                echo "Sabtu";
             }
             echo "/$nama_hari";
     ?>
 ```
+
 ### 11. PERULANGAN FOR
+
 ![img](Img/ss8.png)
 **PENJELASAN**<br>
 Menggunakan **PERULANGAN FOR** seperti hasil dan code di atas
+
 ```code php
 <?php
         echo "Perulangan 1 sampai 10 <br />";
@@ -216,10 +230,13 @@ Menggunakan **PERULANGAN FOR** seperti hasil dan code di atas
 }
 ?>
 ```
+
 ### 12. PERULANGAN WHILE
+
 ![img](Img/ss9.png)
 **PENJELASAN**<br>
 Menggunakan **PERULANGAN WHILE** seperti hasil gambar dan code di atas.
+
 ```code php
 <?php
     echo "Perulangan 1 sampai 10 <br />";
@@ -230,10 +247,13 @@ Menggunakan **PERULANGAN WHILE** seperti hasil gambar dan code di atas.
 }
 ?>
 ```
-### 13.  PERULANGAN DOWHILE
+
+### 13. PERULANGAN DOWHILE
+
 ![img](Img/ss9.png)
 **PENJELASAN**<br>
 Menggunakan **PERULANGAN DOWHILE** seperti hasil gambar di atas yg beserta code php nya.
+
 ```code php
 <?php
     echo "Perulangan 1 sampai 10 <br />";
@@ -244,13 +264,16 @@ Menggunakan **PERULANGAN DOWHILE** seperti hasil gambar di atas yg beserta code 
     } while ($i<=10);
 ?>
 ```
-## PERTANYAAN DAN TUGAS 
-Buatlah program **PHP** sederhana dengan menggunakan ***form input*** yang menampilkan nama , tanggal lahir dan **pekerjaan** . Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir . Dan pilihan **pekerjaan** dengan gaji yang berbeda-beda sesuai pilihan **pekerjaan**.
+
+## PERTANYAAN DAN TUGAS
+
+Buatlah program **PHP** sederhana dengan menggunakan **_form input_** yang menampilkan nama , tanggal lahir dan **pekerjaan** . Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir . Dan pilihan **pekerjaan** dengan gaji yang berbeda-beda sesuai pilihan **pekerjaan**.
 ![img](Img/ss%20tugas%201.png)
 ![img](Img/ss%20tugas%201.2.png)
 ![img](Img/ss%20tugas%201.3.png)
 **PENJELASAN**<br>
 Contoh dari form input menggunakan **PHP** disitu untuk format **tanggal lahir** format date nya adalah **Tahun/Bulan/Tanggal** dan kemudian menggunakan pengondisian **if/else** untuk menentukan atau memanggil **pekerjaan dan gaji** Seperti contoh di atas jika sudah isi data kemudian tekan tombol submit dan kirim,untuk melihat hasil nya.
+
 ```code php
 <!DOCTYPE html>
 <html lang="en">
